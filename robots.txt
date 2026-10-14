@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pubdark.store/sitemap.xml

@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Política de Privacidade - PUBLICADOR_V1</title>
+  <meta name="description" content="Política de Privacidade do PUBLICADOR_V1: quais dados do YouTube, Instagram e Facebook o aplicativo acessa, para quê, onde ficam armazenados e como revogar o acesso.">
+  <link rel="canonical" href="https://pubdark.store/privacidade">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/estilo.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topo">
+    <div class="conteiner">
+      <a class="marca" href="/" aria-label="PUBLICADOR_V1 - início">
+        <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7cc4ff"/><stop offset="1" stop-color="#b39cff"/></linearGradient></defs><rect width="64" height="64" rx="14" fill="#151a22"/><rect x="12" y="14" width="30" height="36" rx="6" fill="none" stroke="url(#g)" stroke-width="4"/><path d="M24 25v14l11-7z" fill="url(#g)"/><path d="M46 20h6M46 32h6M46 44h6" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/></svg>
+        <span>PUBLICADOR_V1<small>pubdark.store</small></span>
+      </a>
+      <nav class="menu" aria-label="Principal">
+        <a href="/">Início</a>
+        <a href="/privacidade" aria-current="page">Privacidade</a>
+        <a href="/termos">Termos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="documento">
+    <div class="conteiner">
+      <h1>Política de Privacidade</h1>
+      <p class="meta-doc">Aplicativo PUBLICADOR_V1 · site pubdark.store · Última atualização: 14 de outubro de 2026</p>
+
+      <nav class="indice" aria-label="Nesta página">
+        <strong>Nesta página</strong>
+        <ol>
+          <li><a href="#sobre">Sobre esta política</a></li>
+          <li><a href="#aplicativo">O que é o PUBLICADOR_V1</a></li>
+          <li><a href="#google">Dados do Google e do YouTube</a></li>
+          <li><a href="#meta">Dados da Meta (Instagram e Facebook)</a></li>
+          <li><a href="#armazenamento">Onde os dados ficam</a></li>
+          <li><a href="#compartilhamento">Serviços externos e compartilhamento</a></li>
+          <li><a href="#uso-limitado">Uso Limitado (Google)</a></li>
+          <li><a href="#retencao">Retenção e exclusão</a></li>
+          <li><a href="#revogacao">Como revogar o acesso</a></li>
+          <li><a href="#site">Este site</a></li>
+          <li><a href="#seguranca">Segurança</a></li>
+          <li><a href="#direitos">Seus direitos</a></li>
+          <li><a href="#alteracoes">Alterações</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ol>
+      </nav>
+
+      <h2 id="sobre">1. Sobre esta política</h2>
+      <p>Esta política explica como o aplicativo PUBLICADOR_V1 e este site (pubdark.store) tratam informações. O
+        responsável pelo aplicativo é PubDark, nome público do administrador dos canais Kratu. PubDark não é uma empresa
+        registrada, e o PUBLICADOR_V1 não é afiliado ao Google, ao YouTube nem à Meta.</p>
+
+      <h2 id="aplicativo">2. O que é o PUBLICADOR_V1</h2>
+      <p>O PUBLICADOR_V1 é um aplicativo de computador para Windows, de uso pessoal, que roda somente no computador do
+        responsável. Ele organiza uma fila de vídeos curtos já finalizados e os publica ou agenda, pelas APIs oficiais, nas
+        contas do próprio responsável: o canal do YouTube Kratu, o perfil do Instagram @kratu9x90 e a Página do Facebook Kratu9x.</p>
+      <ul>
+        <li>Não há cadastro de usuários, nem login no site, nem venda ou distribuição do aplicativo.</li>
+        <li>O aplicativo não tem servidores próprios: ele conversa diretamente com as APIs do Google e da Meta.</li>
+        <li>Somente as contas do responsável são conectadas. O aplicativo não acessa contas ou dados de outras pessoas.</li>
+      </ul>
+
+      <h2 id="google">3. Dados do Google e do YouTube</h2>
+      <p>O PUBLICADOR_V1 usa os <strong>Serviços de API do YouTube</strong> (YouTube Data API v3). A conexão é feita pelo login
+        oficial do Google (OAuth 2.0), no navegador, e só depois que o responsável autoriza as permissões abaixo:</p>
+      <div class="tabela">
+        <table>
+          <thead><tr><th>Permissão</th><th>Para que é usada</th><th>Dados envolvidos</th></tr></thead>
+          <tbody>
+            <tr>
+              <td data-rotulo="Permissão"><code>youtube.upload</code></td>
+              <td data-rotulo="Para que é usada">Enviar ao canal autorizado os vídeos aprovados pelo responsável, como públicos, privados ou privados com data de publicação agendada, conforme a escolha do responsável.</td>
+              <td data-rotulo="Dados envolvidos">O arquivo de vídeo e os textos aprovados (título, descrição, hashtags e tags), além de categoria, idioma, privacidade, data agendada, a opção de notificar inscritos e as declarações exigidas pelo YouTube (conteúdo para crianças e conteúdo sintético).</td>
+            </tr>
+            <tr>
+              <td data-rotulo="Permissão"><code>youtube.readonly</code></td>
+              <td data-rotulo="Para que é usada">Conferir o identificador do canal conectado, para nunca enviar a um canal diferente do esperado, e consultar o estado dos vídeos enviados pelo próprio aplicativo.</td>
+              <td data-rotulo="Dados envolvidos">Identificador do canal conectado. Dos vídeos enviados pelo aplicativo: privacidade, estado do envio e do processamento, data agendada e, se houver, o motivo de rejeição ou falha. A consulta também devolve os textos do próprio vídeo, que não são guardados novamente.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>O aplicativo <strong>não</strong> lê nem guarda comentários, inscritos, mensagens, histórico de visualização,
+        estatísticas, dados de pagamento, contatos, e-mails ou qualquer dado de outros usuários do YouTube ou do Google.</p>
+      <p>Ao usar os recursos do YouTube, aplicam-se também os
+        <a href="https://www.youtube.com/t/terms" rel="noopener">Termos de Serviço do YouTube</a> e a
+        <a href="https://policies.google.com/privacy" rel="noopener">Política de Privacidade do Google</a>.</p>
+
+      <h2 id="meta">4. Dados da Meta (Instagram e Facebook)</h2>
+      <p>Para publicar Reels no Instagram @kratu9x90 e na Página Kratu9x, o aplicativo usa a Graph API da Meta, com login
+        oficial e as permissões <code>pages_show_list</code>, <code>pages_read_engagement</code>, <code>pages_manage_posts</code>,
+        <code>instagram_basic</code> e <code>instagram_content_publish</code>. Elas são usadas para:</p>
+      <ul>
+        <li>conferir a validade e as permissões do acesso (dados técnicos do token, incluindo o identificador do usuário
+          na Meta) e confirmar que a Página e a conta do Instagram conectadas são as esperadas;</li>
+        <li>enviar e publicar, ou agendar no Facebook, os vídeos e legendas aprovados;</li>
+        <li>consultar o estado das publicações feitas pelo aplicativo e o limite diário de publicações;</li>
+        <li>quando a resposta da Meta a uma publicação é incerta, consultar as publicações recentes da própria conta do
+          Instagram (legenda, data e link) para localizar a publicação e evitar um envio duplicado.</li>
+      </ul>
+      <p>O TikTok não é conectado por API: as publicações nessa plataforma são feitas manualmente pelo responsável.</p>
+
+      <h2 id="armazenamento">5. Onde os dados ficam</h2>
+      <ul>
+        <li><strong>Credenciais de acesso (tokens):</strong> ficam somente no computador do responsável, em arquivos cifrados
+          pela proteção de dados do Windows (DPAPI), vinculados à conta do Windows do responsável. Junto com elas ficam apenas dados técnicos da conexão
+          (permissões, validade, identificador do canal do YouTube e do usuário na Meta). A credencial da Meta também fica,
+          cifrada da mesma forma, na pasta do programa local de login usado para obtê-la. As credenciais não são exibidas,
+          impressas em registros nem enviadas a terceiros.</li>
+        <li><strong>Registro local da fila:</strong> um banco de dados no próprio computador guarda os vídeos importados (com a
+          impressão digital SHA-256 de cada arquivo), os textos aprovados, a declaração de direitos, os horários, o estado de
+          cada publicação, os identificadores e links devolvidos pelas plataformas e um histórico das etapas. Cópias de segurança desse banco
+          também ficam no computador.</li>
+        <li><strong>Registros de funcionamento (logs):</strong> ficam no computador do responsável, com as credenciais mascaradas.</li>
+        <li>O aplicativo não envia esses dados a nenhum servidor próprio, serviço de nuvem, ferramenta de análise ou anunciante.
+          Os vídeos e textos só saem do computador para a plataforma em que serão publicados (Google/YouTube ou Meta), por
+          conexão criptografada (HTTPS).</li>
+      </ul>
+
+      <h2 id="compartilhamento">6. Serviços externos e compartilhamento</h2>
+      <p>O funcionamento do PUBLICADOR_V1 envolve apenas estes serviços externos:</p>
+      <div class="tabela">
+        <table>
+          <thead><tr><th>Serviço</th><th>Papel</th><th>O que passa por ele</th></tr></thead>
+          <tbody>
+            <tr>
+              <td data-rotulo="Serviço">Google (OAuth e YouTube Data API v3)</td>
+              <td data-rotulo="Papel">Login da conta do YouTube e envio/consulta dos vídeos do canal Kratu.</td>
+              <td data-rotulo="O que passa por ele">Credenciais de acesso, vídeos, textos aprovados e consultas de estado (seção 3).</td>
+            </tr>
+            <tr>
+              <td data-rotulo="Serviço">Meta (login e Graph API)</td>
+              <td data-rotulo="Papel">Login e publicação de Reels no Instagram @kratu9x90 e na Página Kratu9x.</td>
+              <td data-rotulo="O que passa por ele">Credenciais de acesso, vídeos, legendas aprovadas e consultas de estado (seção 4).</td>
+            </tr>
+            <tr>
+              <td data-rotulo="Serviço">Cloudflare Pages</td>
+              <td data-rotulo="Papel">Hospeda a página estática de retorno do login da Meta.</td>
+              <td data-rotulo="O que passa por ele">O código temporário de autorização da Meta, no endereço acessado pelo navegador; a página só o repassa ao computador do responsável.</td>
+            </tr>
+            <tr>
+              <td data-rotulo="Serviço">GitHub Pages</td>
+              <td data-rotulo="Papel">Hospeda este site.</td>
+              <td data-rotulo="O que passa por ele">Dados técnicos de acesso dos visitantes do site (seção 10).</td>
+            </tr>
+            <tr>
+              <td data-rotulo="Serviço">Hostinger</td>
+              <td data-rotulo="Papel">Registro e DNS do domínio pubdark.store e e-mail support@pubdark.store.</td>
+              <td data-rotulo="O que passa por ele">Mensagens enviadas a esse e-mail.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Fora o envio às próprias plataformas de publicação, o aplicativo não vende, não aluga e não transfere a terceiros
+        os dados obtidos das APIs do Google e da Meta, e não os usa para publicidade, para definir perfis de usuários, para
+        avaliação de crédito nem para treinar modelos de inteligência artificial. Esses dados são usados apenas para as
+        funções descritas nas seções 3 e 4.</p>
+      <p>O código do aplicativo pode ser desenvolvido com ferramentas de programação assistidas por inteligência artificial.
+        Desde a data de vigência desta política, essas ferramentas trabalham apenas com código e testes simulados: respostas
+        reais das APIs do Google e da Meta, credenciais, identificadores de contas e conteúdo privado não são enviados a
+        serviços de inteligência artificial, e as operações reais são executadas localmente pelo responsável.</p>
+
+      <h2 id="uso-limitado">7. Uso Limitado (Google)</h2>
+      <p class="aviso">O uso e a transferência, para qualquer outro aplicativo, de informações recebidas das APIs do Google
+        pelo PUBLICADOR_V1 seguem a
+        <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Política de Dados do Usuário dos Serviços de API do Google</a>,
+        incluindo os requisitos de Uso Limitado.</p>
+
+      <h2 id="retencao">8. Retenção e exclusão</h2>
+      <ul>
+        <li>As credenciais ficam guardadas enquanto a conexão estiver ativa. No YouTube, o comando de desconexão do
+          aplicativo apaga o arquivo de credenciais local; as credenciais da Meta são apagadas removendo os arquivos locais
+          correspondentes, inclusive a cópia do programa de login. A revogação na conta Google ou na Meta (seção 9) também encerra o acesso.</li>
+        <li>O registro local da fila, o histórico das etapas e suas cópias de segurança são mantidos no computador do responsável para conferência e
+          para evitar publicações duplicadas, até que o responsável os apague.</li>
+        <li>Vídeos já publicados ficam nas plataformas e podem ser removidos diretamente no YouTube Studio, no Instagram ou
+          no Facebook. O aplicativo não apaga publicações.</li>
+      </ul>
+
+      <h2 id="revogacao">9. Como revogar o acesso</h2>
+      <ul>
+        <li><strong>Google/YouTube:</strong> acesse <a href="https://myaccount.google.com/permissions" rel="noopener">myaccount.google.com/permissions</a>
+          (página de segurança da conta Google), selecione o aplicativo e remova o acesso.</li>
+        <li><strong>Meta:</strong> no Facebook, em Configurações → <a href="https://www.facebook.com/settings?tab=business_tools" rel="noopener">Integrações comerciais</a>,
+          remova o aplicativo. A conexão com o Instagram é feita por meio da Página do Facebook, então essa remoção também
+          encerra o acesso ao Instagram.</li>
+        <li>Depois da revogação, o aplicativo não consegue mais acessar a conta, mesmo que o arquivo local continue no computador.</li>
+      </ul>
+
+      <h2 id="site">10. Este site</h2>
+      <p>O pubdark.store é um site estático de informação. Ele não tem formulários, login, cookies, ferramentas de análise
+        ou anúncios, e não coleta dados pessoais. O site é hospedado no GitHub Pages, e o GitHub pode processar dados técnicos de
+        acesso, como endereço IP, para entregar o site e protegê-lo contra abusos, conforme a
+        <a href="https://docs.github.com/pt/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">Declaração de Privacidade do GitHub</a>.</p>
+
+      <h2 id="seguranca">11. Segurança</h2>
+      <p>O login do Google usa o fluxo oficial OAuth 2.0 com PKCE e retorno direto para o próprio computador. O login da
+        Meta usa o fluxo oficial da Meta, com uma página de retorno estática que apenas repassa o código de autorização ao
+        computador do responsável, sem guardá-lo. As credenciais são cifradas pelo Windows e as conexões com as plataformas
+        usam HTTPS. Nenhum sistema é totalmente imune a falhas; o acesso pode ser revogado a qualquer momento
+        nas plataformas (seção 9).</p>
+
+      <h2 id="direitos">12. Seus direitos</h2>
+      <p>O aplicativo trata apenas dados das contas do próprio responsável. Ainda assim, se você aparecer em algum conteúdo
+        publicado pelos canais Kratu, ou tiver qualquer pedido sobre dados pessoais (acesso, correção ou exclusão, nos termos
+        da Lei Geral de Proteção de Dados - Lei nº 13.709/2018), entre em contato pelo e-mail abaixo.</p>
+      <p>O PUBLICADOR_V1 não é destinado a crianças e não coleta dados de crianças.</p>
+
+      <h2 id="alteracoes">13. Alterações</h2>
+      <p>Esta política pode ser atualizada quando o funcionamento do aplicativo mudar. A data da última atualização fica
+        no topo desta página.</p>
+
+      <h2 id="contato">14. Contato</h2>
+      <p>Responsável: PubDark<br>
+        E-mail: <a href="mailto:support@pubdark.store">support@pubdark.store</a></p>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <div class="conteiner">
+      <div>
+        <p><strong>PUBLICADOR_V1</strong> · pubdark.store</p>
+        <p>Ferramenta independente. Não é afiliada, patrocinada nem endossada por Google, YouTube ou Meta.</p>
+      </div>
+      <nav aria-label="Rodapé">
+        <a href="/">Início</a>
+        <a href="/termos">Termos</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
